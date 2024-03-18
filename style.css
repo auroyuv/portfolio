@@ -342,7 +342,7 @@ h3.my-profession {
   display: inline-block;
 }
 .about .about-content .personal-info .buttons {
-  margin-top: 30px;
+  margin-top: 300px;
 }
 .about .about-content .personal-info .buttons .btn {
   margin-right: 15px;
@@ -490,6 +490,7 @@ h3.my-profession {
   margin-right: 20px;
 }
 .portfolio .portfolio-item-inner .portfolio-img img {
+  height: 180px;
   width: 100%;
   display: block;
 }
@@ -584,6 +585,9 @@ h3.my-profession {
     display: block;
     margin-left: 0;
   }
+  .about .about-content .personal-info .buttons {
+    margin-top: 200px;
+  }
 }
 @media (max-width: 991px) {
   .contact .contact-info-item,
@@ -599,6 +603,9 @@ h3.my-profession {
   .home .home-img {
     display: none;
   }
+  .about .about-content .personal-info .buttons {
+    margin-top: 200px;
+  }
 }
 @media (max-width: 767px) {
   .contact .contact-form .col-6,
@@ -611,5 +618,8 @@ h3.my-profession {
   .about .about-content .personal-info {
     flex: 0 0 100%;
     max-width: 100%;
+  }
+  .about .about-content .personal-info .buttons {
+    margin-top: 30px;
   }
 }
